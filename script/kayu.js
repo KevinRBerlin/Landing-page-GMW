@@ -50,8 +50,8 @@ var ky = [
 ]
 
 for (let i=0; i<8; i++){
-    document.writeln('<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">')
-    document.writeln('<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">')
+    document.writeln('<div class="w-full md:w-1/4 p-6 flex flex-col flex-grow flex-shrink ">')
+    document.writeln('<div class="flex-1 bg-white rounded-t rounded-b-none border overflow-hidden shadow">')
     document.writeln('<img src="img/'+ky[i]["imge"]+'"alt="" class="column">')
     document.writeln('<a href="#" class="flex flex-wrap no-underline hover:no-underline">')
     document.writeln('<div class="w-full font-bold text-xl text-gray-800 px-6">')
